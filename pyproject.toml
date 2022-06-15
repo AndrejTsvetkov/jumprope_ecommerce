@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "Final project"
+name = "Jumprope e-commerce"
 version = "1.0.0"
 description = ""
 authors = ["Andrej Tsvetkov  <cvetkoandrejj@gmail.com>"]
