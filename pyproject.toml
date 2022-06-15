@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "Final project"
+version = "1.0.0"
+description = ""
+authors = ["Andrej Tsvetkov  <cvetkoandrejj@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.76.0"
+uvicorn = "^0.17.6"
+python-multipart = "^0.0.5"
+SQLAlchemy = "^1.4.36"
+fastapi-pagination = "^0.9.3"
+Flask-Admin = "^1.6.0"
+Flask = "^2.1.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0"
+pytest-cov = "^3.0.0"
+autoflake = "^1.4"
+isort = "^5.10.0"
+black = "^22.1"
+unify = "^0.5"
+flake8 = "^4.0"
+pylint = "^2.12.1"
+mypy = "^0.940"
+pytest-deadfixtures = "^2.2.1"
+requests = "^2.27.1"
+pytest-mock = "^3.7.0"
+
+[build-system]
+requires = ["poetry>=1.0.0"]
+build-backend = "poetry.masonry.api"
